@@ -6,6 +6,7 @@ public class Transformar {
     public static void main(String[] args) {
         double numero1,resultado,resultado1;
         char op;
+        
         op=(JOptionPane.showInputDialog("Elija la opcion a tranformar: \n 1) Horas a Minutos y Segundos \n 2) Minutos a Segundos y Horas \n 3) Segundos a Minutos y Horas " )).charAt(0);
         switch(op){
             case '1' :
